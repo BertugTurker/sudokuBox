@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#sudoku {
+    background-color: rgb(220, 220, 220);
+    max-width: 668px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+
+
+.a1 {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea1
+                3s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a2 {
+    width: 60px;
+    height: 60px;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea2
+                1s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a3 {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea3
+                2s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a4 {
+    width: 60px;
+    height: 60px;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea4
+                3.2s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a5 {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea5
+                3.5s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a6 {
+    width: 60px;
+    height: 60px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea6
+                1.2s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a7 {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea7
+                2.4s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a8 {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea8
+                1.7s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+.a9 {
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animatea9
+                2.6s ease-in-out infinite;
+                animation-delay: 2.5s
+    
+}
+
+@keyframes animatea1 {
+    0%   {background-color: blue;}
+    50% {background-color: white; border-color: white;}
+    
+}
+
+@keyframes animatea2 {
+    0%   {background-color: maroon;}
+    50% {background-color: white;}
+}
+
+@keyframes animatea3 {
+    0%   {background-color: gray;}
+    50% {background-color: white;}
+}
+
+@keyframes animatea4 {
+    0%   {background-color: sandybrown;}
+    50% {background-color: white;}
+}
+
+@keyframes animatea5 {
+    0%   {background-color: orange;}
+    50% {background-color: white;}
+}
+
+@keyframes animatea6 {
+    0%   {background-color: purple;}
+    50% {background-color: white;}
+}
+
+@keyframes animatea7 {
+    0%   {background-color: yellow;}
+    50% {background-color: white;}
+}
+
+@keyframes animatea8 {
+    0%   {background-color: green;}
+    50% {background-color: white;}
+}
+
+@keyframes animatea9 {
+    0%   {background-color: pink;}
+    50% {background-color: white;}
+}
